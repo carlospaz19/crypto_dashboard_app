@@ -6,6 +6,8 @@ export function createLinealChart(dates, prices){
             data: prices,
             label: "USD Price",
             fill: false,
+            pointBackgroundColor: 'orange',
+            pointBorderColor: 'white',
           },
         ],
     };
