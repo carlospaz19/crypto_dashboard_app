@@ -40,4 +40,4 @@ Crypto Chart is a web application that provides information about cryptocurrenci
 
 Thank you for choosing Crypto Chart as your source for cryptocurrency insights! Start exploring the world of cryptocurrencies today!
 
-PLEASE NOTE: When a graphic is not loaded correctl it is because the API fetch was blocked by CORS policy security. In those cases please just wait about 30 seconds and load the page again. Thanks!
+**PLEASE NOTE:** When a graphic is not loaded correctly it is because the API fetch was blocked by CORS policy security. In those cases please just wait about 30 seconds and load the page again. Thanks!
