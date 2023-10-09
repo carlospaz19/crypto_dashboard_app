@@ -1,0 +1,583 @@
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+#introduction {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 185px;
+  margin-right: 185px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 0 10px #000;
+  perspective: 1000px;
+}
+
+#introduction h2 {
+  padding: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#crypto-global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#crypto-global li {
+  text-align: left;
+  color: white;
+  font-size: 25px;
+}
+
+#cryptoPercentageChart {
+  background-color: transparent;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.percentages-section {
+  display: flex;
+  flex-direction: column;
+  size-adjust: auto;
+  color: white;
+  align-items: center;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+#percentage-tables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 0 10px #000;
+  perspective: 1000px;
+}
+
+#percentage-tableSection {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 20px;
+  align-items: center;
+}
+
+#percentage-presentation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+}
+
+#motivational-presentation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#motivationalOne {
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#motivationalOneAuthor {
+  margin: 0;
+  font-style: italic;
+  font-size: 20px;
+  padding-left: 5%;
+}
+
+#market-cap-percentage {
+  font-size: 25px;
+}
+
+#percentage-dataTable {
+  border-collapse: collapse;
+  padding-left: 70px;
+  border-radius: 10px;
+}
+
+.data-row-even {
+  background-color: lightgray;
+  color: black;
+}
+
+.data-row-odd {
+  background-color: white;
+  color: black;
+}
+
+#percentage-dataTable td {
+  padding: 10px;
+  border: 1px solid white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#percentage-dataTable th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#presentation-image {
+  margin-right: 20px;
+}
+
+.section {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 190px;
+  margin-right: 190px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 0 10px #000;
+  perspective: 1000px;
+}
+.section h2 {
+  text-align: center;
+}
+
+#topSeven-section {
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#header-top {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.contentCoin {
+  display: none;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.imageCoin {
+  display: none;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}
+
+.boxCoin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.contentGraphic {
+  display: none;
+  height: 50%;
+  width: 55%;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.canvas {
+  width: 100%;
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px #000;
+  perspective: 1000px;
+  border: 1px solid white;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+.footer div {
+  align-items: center;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+  margin-left: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #introduction {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #introduction h2 {
+    padding: 30px;
+  }
+
+  .percentages-section {
+    margin: 0px;
+  }
+
+  #percentage-tables {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+  }
+
+  #percentage-tableSection {
+    width: 100%;
+    padding-left: 100px;
+  }
+
+  #percentage-dataTable {
+    padding: 0px;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .chart-container {
+    width: 400px;
+  }
+
+  #cryptoPercentageChart {
+    padding: 0px;
+  }
+
+  #presentation-image {
+    width: 80%;
+    margin: 0px;
+  }
+
+  #motivational-presentation {
+    width: 100%;
+    align-items: center;
+  }
+
+  .section {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .boxCoin {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .imageCoin {
+    width: 100px;
+    margin-left: 30px;
+  }
+
+  .contentGraphic {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  .footer {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 767px) {
+  header h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #introduction {
+    margin: 0px;
+  }
+
+  #introduction h2 {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  #crypto-global li {
+    font-size: 20px;
+  }
+
+  .percentages-section {
+    margin: 0px;
+  }
+
+  #percentage-tableSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #percentage-tables {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    width: 100%;
+  }
+
+  #percentage-dataTable {
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+
+  #percentage-dataTable table {
+    font-size: 15px;
+  }
+
+  #cryptoPercentageChart {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+
+  .chart-container {
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+  }
+
+  #presentation-image {
+    width: 80%;
+    margin: 0px;
+  }
+
+  #motivational-presentation {
+    width: 100%;
+    align-items: center;
+  }
+
+  #motivational-presentation #motivationalOne {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+
+  #topSeven-section h2 {
+    font-size: 20px;
+  }
+
+  .section {
+    margin: 0px;
+  }
+
+  .boxCoin {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .imageCoin {
+    width: 80px;
+    margin: 0px;
+  }
+
+  .contentCoin {
+    margin-bottom: 0px;
+  }
+
+  .contentCoin p {
+    font-size: 15px;
+  }
+
+  .contentGraphic {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+  }
+
+  .footer {
+    margin: 0px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  header h1 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #introduction {
+    margin: 0px;
+  }
+
+  #introduction h2 {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  #crypto-global li {
+    font-size: 20px;
+  }
+
+  .percentages-section {
+    margin: 0px;
+  }
+
+  #percentage-tableSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #percentage-tables {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    width: 100%;
+  }
+
+  #percentage-dataTable {
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+
+  #percentage-dataTable table {
+    font-size: 15px;
+  }
+
+  #cryptoPercentageChart {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+
+  .chart-container {
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+  }
+
+  #presentation-image {
+    width: 80%;
+    margin: 0px;
+  }
+
+  #motivational-presentation {
+    width: 100%;
+    align-items: center;
+  }
+
+  #motivational-presentation #motivationalOne {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+
+  #topSeven-section h2 {
+    font-size: 20px;
+  }
+
+  .section {
+    margin: 0px;
+  }
+
+  .boxCoin {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .imageCoin {
+    width: 80px;
+    margin: 0px;
+  }
+
+  .contentCoin {
+    margin-bottom: 0px;
+  }
+
+  .contentCoin p {
+    font-size: 15px;
+  }
+
+  .contentGraphic {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+  }
+
+  .footer {
+    margin: 0px;
+    font-size: 15px;
+  }
+}
