@@ -31,6 +31,9 @@ Crypto Chart is a web application that provides information about cryptocurrenci
 - [Chart.js](https://www.chartjs.org/) for chart visualization
 - [CoinGecko API](https://coingecko.com/en/api) for cryptocurrency data
 
+## Design
+![Mockup design](images/CryptoPage_design.jpg)
+
 ## Author
 
 - Carlos Paz Ortega
