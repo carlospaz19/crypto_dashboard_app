@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const coins = data.coins;
         let i = 0;
     
+        // Create one section for each treding coin
         coins.forEach(coin => {
 
             let coinSection = document.createElement("div");
