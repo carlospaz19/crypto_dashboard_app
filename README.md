@@ -11,7 +11,7 @@ Crypto Chart is a web application that provides information about cryptocurrenci
 - View the total number of active cryptocurrencies.
 - Explore the total market capitalization of cryptocurrencies.
 - Get insights into the market cap percentages of various cryptocurrencies.
-- Discover the top 7 cryptocurrencies from 15 days ago.
+- Discover the top 3 cryptocurrencies from 15 days ago.
 - Access detailed information about each trending cryptocurrency.
 - Visualize price trends with interactive charts.
 
@@ -20,7 +20,7 @@ Crypto Chart is a web application that provides information about cryptocurrenci
 1. Open the [Crypto Chart Webpage](https://dainty-horse-8dab40.netlify.app/).
 2. Explore the introduction section to learn more about the world of cryptocurrencies.
 3. Check out the global cryptocurrency data and market cap percentages.
-4. Dive into the top 7 cryptocurrencies to see their trends.
+4. Dive into the top 3 cryptocurrencies to see their trends.
 5. Click on a cryptocurrency to reveal detailed information and price charts.
 
 ## Technologies Used
@@ -32,6 +32,7 @@ Crypto Chart is a web application that provides information about cryptocurrenci
 - [CoinGecko API](https://coingecko.com/en/api) for cryptocurrency data
 
 ## Design
+
 ![Mockup design](images/CryptoPage_design.jpg)
 
 ## Author
